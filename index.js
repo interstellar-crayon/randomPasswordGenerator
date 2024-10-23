@@ -22,6 +22,9 @@ function generate(){
     }
 }
 
+pass1.addEventListener("click", ()=> {
+    navigator.clipboard.writeText(pass1.textContent)
+})
 
 
 
